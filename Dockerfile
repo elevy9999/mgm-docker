@@ -1,5 +1,7 @@
 FROM python:3.9.7 as base
 
+MAINTAINER Eyal Levy eyal@levys.co.il
+
 # Setup env
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
